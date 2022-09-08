@@ -15,7 +15,7 @@ form {
   
   /* Set a style for all buttons */
   button {
-    background-color: #060706;
+    background-color: #101011;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -29,11 +29,10 @@ form {
     opacity: 0.8;
   }
   
-  /* Extra style for the cancel button (red) */
   .cancelbtn {
     width: auto;
     padding: 10px 18px;
-    background-color: #494141;
+    background-color: #050505;
   }
   
   /* Center the avatar image inside this container */
@@ -46,6 +45,7 @@ form {
   img.avatar {
     width: 150px;
     border-radius: 50%;
+    
 
   }
   
