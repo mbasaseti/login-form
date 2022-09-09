@@ -5,26 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="register.css">
-    <title>Registration form</title>
+    <title>Registration-form</title>
 </head>
 <body>
-    <div class="registration-form">
-        <h1>Register now</h1>
-        <form action="#" method="post"></form>
-        <p>Full name</p>
-        <input type="text" name="full name" placeholder="Full names">
-
-        <p>Username</p>
-        <input type="text" name="username" placeholder="Username">
-
-        <p>Email</p>
-        <input type="text" name="email" placeholder="Email">
-
-        <p>Password</p>
-        <input type="text" name="password" placeholder="Password">
-
-
-
+    <div class="container">
+        <div class="registration-form">
+            <h1>Register now</h1>
+            <form action="#" method="get">
+                <div class="names">
+                    <p>Full name</p>
+                    <input type="text" name="first name" placeholder="john">
+                    <p>Full name</p>
+                    <input type="text" name="last name" placeholder="doe">
+                </div>
+                <div class="names">
+                    <p>Username</p>
+                    <input type="text" name="username" placeholder="@username">
+                    <p>Email</p>
+                    <input type="email" name="email" placeholder="example@domain.com">
+                </div>
+                <div class="names">
+                    <label for="pwd">Password</label>
+                    <input type="password" name="password" placeholder="Password">
+                    <label for="pwd-verify">Verify Password</label>
+                    <input type="password" name="password" placeholder="Verify Password">
+                </div>
+                <div class="bottom">
+                    <input type="number" class="income" name="income" placeholder="Income">
+                    <button type="submit" class="button">Register</button>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 </html>
